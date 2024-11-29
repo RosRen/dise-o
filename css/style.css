@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color:cadetblue;
+    background-color: white;
 }
 
 /* Estilo del header */
@@ -22,48 +22,52 @@ header {
     text-align: left;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
- 
 }
 
 header .descuento {
+    height: 38px;
+    font-size: 18px;
     background-color: #25c4a5;
-    padding-left: 10px;
+    padding-left: 27px;
 }
 
 header .titulo {
-    font-size: 1.5rem;
-    margin-top: 10px;
-    padding-left: 10px;
+    font-size: 47px;
+    top: 38px;
+    height: 101;
+    padding-left: 28px;
 }
 
 /* Estilo del contenedor principal */
 main {
-    margin-top: 120px; 
-    padding: 20px;
+    height: 530px;
+    margin-top: 292px; 
+    padding-left: 32px;
 }
 
 /* Estilo de las tarjetas */
 .cards-container {
+    top: 292px;
+    height: 529px;
     display: flex;
-    gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 /* Estilo general de las tarjetas */
 .card {
+    margin: 20px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: 450px;
+    height: 530px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     text-align: center;
     overflow: hidden;
-    padding-top: 40px;
+    margin-top: 73px;
 }
 
 /* Fondo personalizado para cada tarjeta */
@@ -71,6 +75,7 @@ main {
     background-image: url('../assets/img/fondobatman.png');
     background-size: cover;
     background-position: center;
+    
 }
 
 .card-harley {
@@ -90,10 +95,9 @@ main {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 5px solid white;
-    margin-top: 40px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    z-index: 2;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 6px 12px rgba(239, 235, 235, 0.3);
 }
 
 /* Ícono de corazón */
@@ -106,7 +110,6 @@ main {
     background-image: url('../assets/img/heart.png');
     background-size: cover;
     border-radius: 50%;
-    z-index: 3;
 }
 
 /* Contenido de la tarjeta */
@@ -118,43 +121,46 @@ main {
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    z-index: 1;
 }
 
 /* Título */
 .card h3 {
-    margin: 10px 0;
-    font-size: 1.3rem;
+    margin-top: 45px;
+    font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Descripción */
 .card .descripcion {
-    background-color: white;
-    font-size: 0.9rem;
-    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    font-size: 16px;
+    margin-bottom: 30px;
     color: black;
-    max-height: 50%;
+    max-height: 60%;
     min-height: 100%;
     text-align: left;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 /* Botón */
 .card button {
-    margin: 10px 0;
+    margin-left: 70px;
+    margin-top: 30px;
+    height: 48.52px;
+    width: 128.78px;
     padding: 10px 20px;
-    background-color: #00bfa5;
+    background-color: #00669F;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 18px;
     transition: background-color 0.3s;
 }
 
 .card button:hover {
-    background-color: #008f82;
+    background-color: #51a1d0;
 }
 
 /* Estilo del footer */
@@ -163,5 +169,5 @@ footer {
     padding: 10px;
     background-color: #00669F;
     color: white;
-    margin-top: 20px;
+    margin-top: 273px;
 }
